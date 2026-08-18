@@ -1,13 +1,12 @@
 {
   "name": "toolforge",
   "version": "4.2.0",
-  "description": "ToolForge - Forge Your Tools. A collection of handy online tools for developers, with great UX. Orange & black rebrand of IT-Tools.",
+  "description": "ToolForge - Forge Your Tools.",
   "author": "ToolForge",
   "license": "GPL-3.0",
   "type": "module",
   "engines": {
-    "node": ">=18.0.0",
-    "pnpm": ">=8.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "dev": "vite",
@@ -19,7 +18,7 @@
     "script:create:tool": "tsx scripts/create-tool.ts"
   },
   "dependencies": {
-    "@faker-js/faker": "^8.0.2",
+    "@faker-js/faker": "^8.4.1",
     "@fontsource/fira-code": "^5.0.1",
     "@iconify/vue": "^4.1.1",
     "@it-tools/bip39": "0.0.4",
@@ -90,7 +89,7 @@
     "@types/uuid": "^9.0.3",
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
-    "@vitest/coverage-c8": "^0.40.0",
+    "@vitest/coverage-c8": "^0.33.0",
     "@vue/test-utils": "^2.4.1",
     "eslint": "^8.45.0",
     "eslint-plugin-vue": "^9.15.1",
