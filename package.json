@@ -1,0 +1,23 @@
+{
+  "name": "toolforge",
+  "version": "1.0.0",
+  "description": "ToolForge - Forge Your Tools. A collection of handy online tools for developers, with great UX. Orange & black rebrand of IT-Tools.",
+  "author": "ToolForge",
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint . --ext .vue,.js,.ts,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "keywords": [
+    "tools",
+    "developer-tools",
+    "toolforge",
+    "forge",
+    "utilities"
+  ]
+}
